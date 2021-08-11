@@ -1,26 +1,153 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>reservia - imane babic</title>
-    <meta type="description" content="site d'hebergement pour des vaccances"> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+  integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+  crossorigin="anonymous">
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" 
+rel="stylesheet">
+/>
+  <link rel="stylesheet" href="stlye.css">
+  <title>Reservia imane babic</title>
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="logo reservia">
-        <menu>
-            <li><a href="#">hebergement</a></li>
-            <li><a href="#">activité</a></li>
-            <li><a href="#">s'inscrire</a></li>
-        </menu>
-        <hgroup>
-            <h1>trouver votre hebergement pour des vacances de reve</h1>
-            <h2>en plein centre ville ou en pleine nature</h2>
+  <nav class="sizeNav">
+    <div class="flexBetween">
+<div>
+  <img
+  class="marglogo"
+  src="images/Reservia@3x.png"
+  alt="logo Reservia" 
+  width="120px" 
+  height="50px"
+  />
+</div>
 
-        </hgroup>
-    </header>
-    
+ <!-- on rajoute une div qui englobe les deux liens hebergement et activités -->
+ <div class="sizeLien12 flexCentre">
+  <div class="sizeLien flexCentre bordureNav">
+    <a class="colorLien2 decorationNone" href="#hebergements"
+      >Hébergements</a
+    >
+  </div>
+  <div class="sizeLien flexCentre bordureNav">
+    <a class="colorLien2 decorationNone" href="#activites">Activités</a>
+  </div>
+</div>
+<div class="sizeLien flexCentre bordureNav">
+  <a class="texteGras colorBleu decorationNone" href="#">S'inscrire</a>
+</div>
+</div>
+</nav>
+<header>
+<section>
+<div>
+  <h1 class="texteGras">
+    Trouvez votre hébergements pour vos vacances de rêve
+  </h1>
+  <p>En plein centre ville ou en pleine nature</p>
+</div>
+<div class="bordureSearch flexCentre">
+  <div class="backGris flexCentre iconSize">
+    <i class="fas fa-map-marker-alt"></i>
+  </div>
+  <div>
+    <input
+      class="recherche flexCentre bordureNone paddingSearch"
+      type="search"
+      value="Marseille , France"
+    />
+  </div>
+  <div class="backBleu flexCentre buttonSearch">Rechercher</div>
+</div>
+<div class="mobileFiltreWrap filtre margFiltre">
+  <div class="margFiltreTitre"><h3>Filtres</h3></div>
+  <!-- rajoute 2 div flexAround pour separer en mobile -->
+  <!-- div1 -->
+  <div class="flexAround">
+    <div class="flexBetween filtreTexteIcons">
+      <i
+        class="fas fa-money-bill-wave fa-lg filtreIcons flexCentre"
+      ></i>
+      <div class="filtreTexte flexCentre">Economiques</div>
+    </div>
+    <div class="flexBetween filtreTexteIcons">
+      <i class="fas fa-child fa-lg filtreIcons flexCentre"></i>
+      <div class="filtreTexte flexCentre">Familiales</div>
+    </div>
+  </div>
+  <!-- div2 -->
+  <div class="mobileFiltreWrap flexAround">
+    <div class="flexBetween filtreTexteIcons">
+      <i class="fas fa-heart fa-lg filtreIcons flexCentre"></i>
+      <div class="filtreTexte flexCentre">Romantiques</div>
+    </div>
+    <div class="flexBetween filtreTexteIcons">
+      <i class="fas fa-dog fa-lg filtreIcons flexCentre"></i>
+      <div class="filtreTexte flexCentre">Animaux autorisés</div>
+    </div>
+  </div>
+</div>
+<div class="info">
+  <div class="parentIcon flexCentre">
+    <i class="fas fa-info fa-xs colorBleu"></i>
+  </div>
+  <p>Plus de 500 logements sont disponibles dans cette ville</p>
+</div>
+</section>
+</header>
+<section id="hebergements" class="flexAround">
+<div class="flexColumnAround sizeHebergements backGris blocHebergements">
+  <h2>Hébergements à Marseille</h2>
+  <div class="bloc1 flexBetween">
+    <div class="cubeHebergements flexColumnCentre">
+      <div class="imgHebergements1"></div>
+      <div class="cubeDetailsHebergements">
+        <h3>Auberge de la Cannebiére</h3>
+        <p>Nuit à partir de 25e</p>
+        <div>etoile</div>
+      </div>
+    </div>
+    <div class="imgHebergements2"></div>
+    <div class="cubeDetailsHebergements">
+      <h3>Hotel du port</h3>
+      <p>Nuit à partir de 52e</p>
+      <div>etoile</div>
+    </div>
+    <div class="imgHebergements3"></div>
+    <div class="cubeDetailsHebergements">
+      <h3>Auberge de la Cannebiére</h3>
+      <p>Nuit à partir de 25e</p>
+      <div>etoile</div>
+    </div>
+    <div class="imgHebergements1"></div>
+    <div class="cubeDetailsHebergements">
+      <h3>Auberge de la Cannebiére</h3>
+      <p>Nuit à partir de 25e</p>
+      <div>etoile</div>
+    </div>
+    <div class="imgHebergements1"></div>
+    <div class="cubeDetailsHebergements">
+      <h3>Auberge de la Cannebiére</h3>
+      <p>Nuit à partir de 25e</p>
+      <div>etoile</div>
+    </div>
+    <div class="imgHebergements1"></div>
+    <div class="cubeDetailsHebergements">
+      <h3>Auberge de la Cannebiére</h3>
+      <p>Nuit à partir de 25e</p>
+      <div>etoile</div>
+    </div>
+          </div>
+        </div>
+
+      </div>
+
 </body>
 </html>
